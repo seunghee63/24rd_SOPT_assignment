@@ -17,6 +17,13 @@
 
     //메인
     <RelativeLayout android:layout_width="match_parent" android:layout_height="170dp">
+
+        <TextView
+                android:layout_margin="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@drawable/yellow_new_btn"
+                android:text="new" android:textStyle="bold" android:textColor="#ffffff" android:textSize="12dp"
+                android:paddingHorizontal="6dp"/>
+
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
                       android:orientation="horizontal"
                       android:layout_alignParentBottom="true"
